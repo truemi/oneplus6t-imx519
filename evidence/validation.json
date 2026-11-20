@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "first_capture_pid": 980,
+  "restarted_capture_pid": 1001,
+  "frames_before": 100,
+  "frames_after": 100,
+  "median_before_ms": 9.193294999999999,
+  "median_after_ms": 9.195547000000001,
+  "gaps_before": 0,
+  "gaps_after": 0,
+  "note": "Real SIGKILL/recovery; real driving flags remained 0 throughout."
+}

@@ -1,0 +1,8 @@
+Import('env', 'arch', 'messaging', 'common', 'gpucommon', 'visionipc')
+env=env.Clone()
+env.Prepend(CPPPATH=['#/system/camerad/imx519_port/uapi'])
+env.Prepend(LIBPATH=['/data/imx519_toolchain/usr/lib/aarch64-linux-gnu'])
+libs=[common,'OpenCL',messaging,visionipc,gpucommon]
+sources=['main.cc','cameras/camera_qcom2.cc','cameras/camera_common.cc','cameras/spectra.cc','cameras/cdm.cc','sensors/imx519.cc','sensors/imx363.cc','sensors/os04c10.cc','sensors/ox03c10.cc']
+env.Program('camerad_imx519_probe',sources,LIBS=libs)
+env.Program('rectify_check',['rectify_check.cc'],LIBS=libs)

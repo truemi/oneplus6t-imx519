@@ -1,0 +1,54 @@
+{
+  "sensor": "IMX519",
+  "actuator": "SA3103",
+  "fixed_dac": 1366,
+  "continuous_af": false,
+  "sensor_mode_index": 6,
+  "sensor_output": [
+    1920,
+    1080
+  ],
+  "sensor_format": "RAW10",
+  "vision_output": [
+    1280,
+    720
+  ],
+  "vision_format": "NV12",
+  "fps": 20,
+  "processing": "direct IFE MNDS hardware scaling plus measured GPU lens rectification; no JPEG/H264 capture stage",
+  "intrinsics_calibrated": true,
+  "enabled_scope": "native-only capture in all manager states; road validation pending",
+  "native_sha256": "1697dcdc1ce86601bb7fc2a9170afde35fc259263c6141fa5e93f656d1dd65f4",
+  "validity_metadata": true,
+  "geometry": "imx519_720p_20261029",
+  "rectified_output": true,
+  "calibration_file": "/data/imx519_intrinsics_720p.json",
+  "output_K": [
+    [
+      1181.1035921673238,
+      0.0,
+      663.8852284771285
+    ],
+    [
+      0.0,
+      1180.88327553333,
+      307.6199600164883
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "output_distortion": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "calibration_driver_sha256": "e950accedf0b6f72405704e9a43727d6ae7009bd6d328999017aeccbec75869b",
+  "backend": "native-only",
+  "hal_fallback": false,
+  "road_validated": false
+}

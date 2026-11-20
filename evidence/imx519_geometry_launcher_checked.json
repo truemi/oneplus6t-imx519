@@ -1,0 +1,36 @@
+{
+  "health": {
+    "boottime_ns": 65831424998832,
+    "frame_id": 105,
+    "sof_age_ms": 9.067,
+    "geometry": "imx519_720p_20261029",
+    "width": 1280,
+    "height": 720
+  },
+  "timing": {
+    "geometry": {
+      "width": 1280,
+      "height": 720,
+      "stride": 1280,
+      "uv_offset": 942080
+    },
+    "count": 119,
+    "fps": 20.003384935755523,
+    "frame_gaps": 0,
+    "valid_frames": 119,
+    "stats": {
+      "sof_to_client_ms": {
+        "min": 9.106511,
+        "median": 9.184402,
+        "p95": 9.243282,
+        "max": 9.626511
+      },
+      "fence_to_client_ms": {
+        "min": 1.321823,
+        "median": 1.397709,
+        "p95": 1.444427,
+        "max": 1.695625
+      }
+    }
+  }
+}

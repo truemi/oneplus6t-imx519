@@ -1,0 +1,3 @@
+Import('arch')
+if arch == 'larch64':
+  SConscript('imx519_port/SConscript')

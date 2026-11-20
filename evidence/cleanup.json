@@ -1,0 +1,26 @@
+{
+  "removed": [
+    "/data/hal3_direct",
+    "/data/hal3_setup.sh",
+    "/data/libssc_stub.so",
+    "/data/hal3_direct.log",
+    "/data/hal3_test.log",
+    "/data/android_root/tmp/hal_camera",
+    "/data/imx519_native_fallback.log",
+    "/data/imx519_native_backup",
+    "/data/camera_af_backup_20261028",
+    "/data/camera_latency_backup_20261028",
+    "/data/imx519_geometry_backup_20261029",
+    "/data/imx519_geometry_stage",
+    "/data/imx519_delivery",
+    "/data/imx519_native_20261028.zip",
+    "/data/imx519_geometry_20261029.zip",
+    "/data/imx519_geometry_20261029.zip.sha256",
+    "/data/imx519_native_switch.py",
+    "/data/openpilot/system/camerad/android_hal_manager.py",
+    "/data/openpilot/system/camerad/__pycache__/android_hal_manager.cpython-312.pyc",
+    "/data/openpilot/system/camerad/camerad_hal_v2",
+    "/data/openpilot/system/camerad/cameras/camera_android_hal.cc",
+    "/data/openpilot/system/camerad/cameras/camera_android_hal.o"
+  ]
+}
